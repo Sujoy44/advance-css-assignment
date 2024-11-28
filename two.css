@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.analytics-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #d16ba5, #c777ad);
+    color: white;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.stat p:last-child {
+    font-size: 14px;
+}

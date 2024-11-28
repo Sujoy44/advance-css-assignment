@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sticky-note {
+    position: relative;
+    width: 300px;
+    background-color: #7a4646;
+    border: 1px solid #656262;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.sticky-note:hover {
+    transform: rotate(-90deg);
+}
+
+.sticky-note:hover .note-content {
+    transform: rotate(90deg);
+}
+
+.note-content {
+    transition: transform 0.3s ease-in-out;
+}
